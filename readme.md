@@ -4,7 +4,7 @@
 [Under Construction] ... watch for it ... 
 ```
 2025-02-24_2100hr_22sec:	initial chapter designation
-2025-03-28_1925hr_30sec:	chapter 01 draft
+2025-03-28_1925hr_30sec:	chapter 01 and chapter 02 drafts
 ```
 
 # Chapter 1: Hello, World! Now What?
