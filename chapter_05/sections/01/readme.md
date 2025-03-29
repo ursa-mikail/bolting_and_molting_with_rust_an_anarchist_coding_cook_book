@@ -8,7 +8,7 @@ To make it painfully clear, `Ownership` is a strict but necessary concept. Once 
 Rust’s rules around ownership and borrowing are designed to prevent you from shooting yourself in the foot (or, in this case, causing dangling references or data races). 不借有还, 再借不难 – if you don’t borrow, you don’t have to worry about returning. But, once you borrow and return correctly, borrowing again becomes as simple as saying "Here you go!"
 
 ```
-不借有还, 再借不难: "If you don’t borrow, you don’t return; but if you borrow and return, borrowing again is not hard."
+有借有还, 再借不难: "If you borrow, you better return; but if you had borrowed and returned, borrowing again is not hard."
 
 ```
 
@@ -44,7 +44,7 @@ Lifetimes specify how long a reference is valid. It's like knowing when the borr
 
 Rust’s memory safety and concurrency features are like a well-guarded vault. Sure, it might take some extra time to get the keys, but once you’ve earned them, you can store and access things safely and reliably.
 
-The borrow checker may feel like a prison guard at first, but once you understand its rules, life becomes easy. 不借有还, 再借不难 – Once you borrow and return, the next borrow will be simple.
+The borrow checker may feel like a prison guard at first, but once you understand its rules, life becomes easy. 有借有还, 再借不难 – Once you established `borrow and return` trust credit, the next borrow will be simple.
 
 ### Your Road Out of Purgatory
 Embrace the rules, and you'll unlock Rust's power and memory safety without breaking a sweat.
