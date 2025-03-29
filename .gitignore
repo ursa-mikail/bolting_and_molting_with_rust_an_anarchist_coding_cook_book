@@ -1,1 +1,4 @@
 .DS_Store
+
+# Ignore target directories
+**/target/ # omit target directories
