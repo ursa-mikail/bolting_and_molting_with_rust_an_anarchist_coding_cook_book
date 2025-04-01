@@ -1,0 +1,12 @@
+[package]
+name = "proc_macros"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2", features = ["full"] }          # Used for parsing Rust code
+quote = "1.0"         # Helps generate Rust code
+proc-macro2 = "1.0"   # Handles procedural macros

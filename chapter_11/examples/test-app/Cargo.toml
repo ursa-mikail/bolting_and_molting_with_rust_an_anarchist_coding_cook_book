@@ -1,0 +1,18 @@
+[package]
+name = "test-app"
+version = "0.1.0"
+edition = "2024"
+
+#[workspace]
+#members = ["proc_macros", "test-app"]
+
+[dependencies]
+proc_macros = { path = "../proc_macros" } # proc_macros as a Dependency in test-app
+
+[features]
+use_proc_macros = []
+
+[build-dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full"] }
