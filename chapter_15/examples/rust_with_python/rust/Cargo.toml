@@ -1,0 +1,17 @@
+[package]
+name = "rust_with_python"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rust_with_python"
+# "cdylib" is necessary for Python modules
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.18.1", features = ["extension-module"] }
+numpy = "0.18.0"
+ndarray = "0.15.6"
+
+[package.metadata.maturin]
+name = "rust_with_python"

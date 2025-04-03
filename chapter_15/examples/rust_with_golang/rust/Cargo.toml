@@ -1,0 +1,12 @@
+# Cargo.toml
+[package]
+name = "rust_with_golang"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rust_with_golang"
+crate-type = ["cdylib"]  # Creates a dynamic library for FFI
+
+[dependencies]
+# Add any dependencies your Rust code needs

@@ -1,0 +1,15 @@
+# Cargo.toml
+[package]
+name = "rust_with_c"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rust_with_c"
+crate-type = ["cdylib", "staticlib"]  # Creates dynamic and static libraries for C
+
+# Ensure stable ABI name for macOS
+[package.metadata]
+links = "rust_with_c"
+
+[dependencies]
