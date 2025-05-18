@@ -1,6 +1,8 @@
 # Bolting And Molting With Rust: An Anarchist Coding Cook Book
 ## By `Gregory Tomasyk` and `Mikail Eliyah`
 
+![book cover: Bolting And Molting With Rust: An Anarchist Coding Cook Book](book_cover.png)
+
 [Under Construction] ... watch for it ... 
 ```
 2025-02-24_2100hr_22sec:	initial chapter designation
